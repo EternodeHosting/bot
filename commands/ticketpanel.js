@@ -26,7 +26,7 @@ class commandhelp {
 :flag_gb: If you are a problem. You can open a ticket.`)
                 .setFooter({ text: text_panel.footer  });
             
-            interaction.channel.send({ embeds: [embed1, Ticketembed], components: [row] });
+            interaction.channel.send({ embeds: [Ticketembed], components: [row] });
             interaction.reply({content: "Embed Sended", ephemeral: true});
 
     }
