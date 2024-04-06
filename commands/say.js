@@ -1,7 +1,7 @@
 class commandre {
     constructor() {
         this.name = "say"
-        this.description = "0xyToan le boss"
+        this.description = "Envoyez un message en tant que bot"
         this.options = [
             { type: 'STRING', name: "msg", description: "Le message a envoyer", required: true },
         ]
